@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"        : "app",
+    "interpreter" : "python3",
+    "script"      : "./main.py",
+    "error_file"      : "/home/abu/err.log",
+    "out_file"        : "/home/abu/out.log",
+    "merge_logs"      : true,
+    "log_date_format" : "YYYY-MM-DD HH:mm Z"
+  }]
+}
